@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TravelBloom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="airplane-icon.png" alt="TravelBloom Logo">
+            <span>TravelBloom</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+            <button class="search-btn" onclick="searchDestinations()">Search</button>
+            <button class="clear-btn" onclick="clearResults()">Clear</button>
+        </div>
+    </nav>
+
+     <!-- Social Media Sidebar -->
+     <div class="social-sidebar">
+        <a href="https://x.com/johngai19" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/weizy0219" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/johngai19/" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@johngai9" class="social-icon"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content about-content">
+            
+            <div class="about-text">
+                <h1>ABOUT US</h1>
+                <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people travelling to different destinations around the world.</p>
+            </div>
+
+            <div class="team-section">
+                <h2>Our Team</h2>
+                <div class="team-cards">
+                    <div class="team-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>John Doe</h3>
+                        <p>John is responsible for...</p>
+                        <span class="role">CEO</span>
+                    </div>
+
+                    <div class="team-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>Celina Thomas</h3>
+                        <p>Celina Thomas is responsible for...</p>
+                        <span class="role">Team Lead</span>
+                    </div>
+
+                    <div class="team-card">
+                        <i class="fas fa-user-circle"></i>
+                        <h3>Mike Tysen</h3>
+                        <p>Mike Tysen is responsible for...</p>
+                        <span class="role">Delivery Head</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
