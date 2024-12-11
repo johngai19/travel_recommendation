@@ -9,7 +9,6 @@
 </head>
 <body>
     <!-- Navbar -->
-    <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
             <img src="airplane-icon.png" alt="TravelBloom Logo">
@@ -34,31 +33,39 @@
         <a href="https://www.instagram.com/johngai19/" class="social-icon"><i class="fab fa-instagram"></i></a>
         <a href="https://www.youtube.com/@johngai9" class="social-icon"><i class="fab fa-youtube"></i></a>
     </div>
+<!-- Left Hero Section -->
+<section class="hero-section">
+    <div class="hero-content">
+        <h1>CONTACT US</h1>
+    </div>
+</section>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="hero-content contact-content">
-            <h1>CONTACT US</h1>
-            <p>Get in touch</p>
+<!-- Right Side Content -->
+<section id="searchResults">
+    <div class="recommendation-card">
+        <div class="recommendation-content">
+            <h3>Get in touch</h3>
+            <p>We'd love to hear from you. Please fill out this form.</p>
             
-            <form class="contact-form" onsubmit="handleSubmit(event)">
+            <form class="contact-form">
                 <div class="form-group">
-                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="text" placeholder="Your Name" required>
                 </div>
-
                 <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="email" placeholder="Your Email" required>
                 </div>
-
                 <div class="form-group">
-                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    <input type="text" placeholder="Subject" required>
                 </div>
-
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
                 <button type="submit" class="submit-btn">Submit</button>
             </form>
         </div>
-    </section>
-
+    </div>
+</section>
+    
     <script src="script.js"></script>
 </body>
 </html>

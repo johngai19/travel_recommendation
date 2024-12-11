@@ -94,7 +94,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    width: 50%;
+    width: 100%;
     height: calc(100vh - 80px);
     position: fixed;
     left: 0;
@@ -134,16 +134,7 @@ body {
     line-height: 1.6;
 }
 
-/* Search Results - Right Side */
-#searchResults {
-    width: 50%;
-    min-height: calc(100vh - 80px);
-    position: fixed;
-    right: 0;
-    top: 80px;
-    padding: 2rem;
-    overflow-y: auto;
-}
+
 
 .recommendation-card {
     background: white;
@@ -316,67 +307,4 @@ body {
     background: #008B8B;
     border-radius: 4px;
     font-size: 0.8rem;
-}
-
-
-/* Additional Contact Page Styles */
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-}
-
-.hero-content h1 {
-    font-size: 5rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-#searchResults .recommendation-card {
-    background: rgba(255, 255, 255, 0.95);
-    margin-top: 2rem;
-}
-
-#searchResults .recommendation-content {
-    padding: 2rem;
-}
-
-#searchResults h3 {
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 1rem;
-}
-
-.contact-form .form-group {
-    margin-bottom: 1.5rem;
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 1rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 1rem;
-    background: white;
-    color: #333;
-}
-
-.contact-form textarea {
-    height: 150px;
-    resize: vertical;
-}
-
-.contact-form .submit-btn {
-    width: 100%;
-    padding: 1rem;
-    background-color: #008B8B;
-    border: none;
-    color: white;
-    font-size: 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.contact-form .submit-btn:hover {
-    background-color: #006666;
 }
